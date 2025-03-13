@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(to bottom, #d9f3ff, white);
+  font-family: "Poppins", sans-serif;
+  padding: 50px 20px;
+}
+
+/* Title */
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+}
+
+/* Description */
+.contact-description {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+/* Contact Info & Form Layout */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 100%;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  font-size: 24px;
+  color: blue;
+}
+
+/* Social Links */
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 30px;
+  transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.github {
+  color: black;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: darkblue;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: blue;
+  box-shadow: 0px 4px 10px rgba(0, 0, 255, 0.2);
+  outline: none;
+}
+
+/* Send Button */
+.send-button {
+  background: blue;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+.send-button:hover {
+  background: #0044cc;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    padding-top: 20px;
+  }
+}

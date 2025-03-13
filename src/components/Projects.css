@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(to bottom, #d9f3ff, white);
+  font-family: "Poppins", sans-serif;
+  padding: 50px 20px;
+}
+
+/* Title */
+.projects-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+
+/* Description */
+.projects-description {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Project Card */
+.project-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  padding-bottom: 15px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 4px solid blue;
+}
+
+/* Project Info */
+.project-info {
+  padding: 15px;
+  text-align: left;
+}
+
+.project-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Project Links */
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+/* Project Buttons */
+.project-btn,
+.github-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.project-btn {
+  background-color: blue;
+  color: white;
+}
+
+.project-btn:hover {
+  background-color: #0044cc;
+  transform: scale(1.1);
+}
+
+/* GitHub Button */
+.github-btn {
+  background: #222;
+  color: white;
+}
+
+.github-btn:hover {
+  background: #444;
+  transform: scale(1.1);
+}
+
+/* GitHub Icon */
+.github-icon {
+  font-size: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
