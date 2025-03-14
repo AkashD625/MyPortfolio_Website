@@ -10,27 +10,28 @@ import project3 from "../assets/images/pro3.jpg";
 // Project data
 const projects = [
   {
-    title: "Social Issues Tracker",
+    title: "Social Issues Tracker (Upcoming)",
     description: "A location-based issue reporting platform.",
     img: project1,
-    link: "#",
-    github: "https://github.com/akashdivate/social-issues-tracker",
+    link: "https://github.com/AkashD625/LocalIssues-tracker-Web-appliication-",
+    github: "https://github.com/AkashD625/LocalIssues-tracker-Web-appliication-",
   },
   {
     title: "Food Ordering App",
-    description: "A user-friendly food ordering platform.",
+    description: "A user-friendly food ordering platform.To enhance my skills in mern stack i built this project that also has payment gatway.",
     img: project2,
-    link: "#",
-    github: "https://github.com/akashdivate/food-ordering-app",
+    link: "https://vegy-food-delivery-app-1.onrender.com/",
+    github: "https://github.com/AkashD625/Vegy---food-delivery-app",
   },
   {
     title: "Placement Portal",
     description: "A platform to help students get placed in top companies.",
     img: project3,
-    link: "#",
-    github: "https://github.com/akashdivate/placement-portal",
+    link: "https://github.com/AkashD625/DBMS-project-Placementor-",
+    github: "https://github.com/AkashD625/DBMS-project-Placementor-",
   },
 ];
+
 
 const Projects = () => {
   return (

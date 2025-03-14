@@ -21,8 +21,8 @@
   list-style: none;
   display: flex;
   gap: 25px;
-  padding: 0;
-  margin: 0;
+  padding: 50;
+  margin: 20;
 }
 
 .nav-links li {
@@ -70,4 +70,3 @@
 }
 
 /* 🌟 Mobile Navigation */
-

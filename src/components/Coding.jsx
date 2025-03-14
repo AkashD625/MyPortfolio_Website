@@ -1,5 +1,10 @@
 import React from "react";
-import { SiLeetcode, SiCodechef, SiCodeforces, SiGeeksforgeeks } from "react-icons/si";
+import {
+  SiLeetcode,
+  SiCodechef,
+  SiCodeforces,
+  SiGeeksforgeeks,
+} from "react-icons/si";
 import "./Coding.css";
 
 const codingProfiles = [
@@ -20,7 +25,7 @@ const codingProfiles = [
   },
   {
     name: "GeeksforGeeks",
-    link: "https://auth.geeksforgeeks.org/user/akashdivate",
+    link: "https://www.geeksforgeeks.org/user/divateat95a/",
     icon: <SiGeeksforgeeks className="gfg-icon" />,
   },
 ];
@@ -30,12 +35,20 @@ const Coding = () => {
     <section className="coding-container">
       <h2 className="section-title">Coding Profiles</h2>
       <p className="coding-description">
-        I actively solve problems and participate in competitive programming contests to improve my{" "}
-        <span className="highlight">Data Structures & Algorithms</span> skills across multiple platforms.
+        I actively solve problems and participate in competitive programming
+        contests to improve my{" "}
+        <span className="highlight">Data Structures & Algorithms</span> skills
+        across multiple platforms.
       </p>
       <div className="coding-grid">
         {codingProfiles.map((profile, index) => (
-          <a key={index} href={profile.link} target="_blank" rel="noopener noreferrer" className="coding-card">
+          <a
+            key={index}
+            href={profile.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="coding-card"
+          >
             <div className="icon-container">{profile.icon}</div>
             <h3 className="profile-name">{profile.name}</h3>
           </a>

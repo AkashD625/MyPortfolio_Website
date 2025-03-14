@@ -34,7 +34,7 @@ const Home = () => {
         <div className="about-me">
           <h2 className="about-title">About Me</h2>
           <p className="about-text">
-            I’m a passionate <span className="highlight">Software Engineer</span> with expertise in{" "}
+            I’m a passionate <span className="highlight">Engineering Student</span> with expertise in{" "}
             <span className="highlight">MERN Stack</span>,{" "}
             <span className="highlight">Data Structures & Algorithms</span>, and <span className="highlight">AI</span>. 
             I enjoy solving real-world problems through technology and building scalable applications.
