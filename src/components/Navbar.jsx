@@ -10,28 +10,29 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
+      <div className="menu-icon" onClick={toggleMenu}>
+        <div className={`bar ${menuOpen ? "open" : ""}`}></div>
+        <div className={`bar ${menuOpen ? "open" : ""}`}></div>
+        <div className={`bar ${menuOpen ? "open" : ""}`}></div>
+      </div>
+
       <ul className={`nav-links ${menuOpen ? "show" : ""}`}>
         <li>
-          <a href="#home">
-            Home
-          </a>
+          <a href="#home" onClick={toggleMenu}>Home</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects" onClick={toggleMenu}>Projects</a>
         </li>
         <li>
-          <a href="#coding">CodingProfiles</a>
+          <a href="#coding" onClick={toggleMenu}>CodingProfiles</a>
         </li>
         <li>
-          <a href="#skills">Skills</a>
+          <a href="#skills" onClick={toggleMenu}>Skills</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" onClick={toggleMenu}>Contact</a>
         </li>
       </ul>
-      
-
-      
     </nav>
   );
 };
