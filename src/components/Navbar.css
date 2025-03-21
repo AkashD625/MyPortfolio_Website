@@ -16,7 +16,26 @@
   z-index: 1000;
 }
 
-/* 🌟 Navbar Links (Desktop) */
+/* 🌟 Resume Button */
+.resume-button {
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  right: 60px;
+}
+
+.resume-button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* 🌟 Navbar Links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -117,5 +136,17 @@
 
   .bar.open:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  /* 🌟 Mobile Resume Button */
+  .resume-button {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    background: #28a745;
+  }
+
+  .resume-button:hover {
+    background: #1e7e34;
   }
 }

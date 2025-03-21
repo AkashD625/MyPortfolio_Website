@@ -18,21 +18,40 @@ const Navbar = () => {
 
       <ul className={`nav-links ${menuOpen ? "show" : ""}`}>
         <li>
-          <a href="#home" onClick={toggleMenu}>Home</a>
+          <a href="#home" onClick={toggleMenu}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="#projects" onClick={toggleMenu}>Projects</a>
+          <a href="#projects" onClick={toggleMenu}>
+            Projects
+          </a>
         </li>
         <li>
-          <a href="#coding" onClick={toggleMenu}>CodingProfiles</a>
+          <a href="#coding" onClick={toggleMenu}>
+            CodingProfiles
+          </a>
         </li>
         <li>
-          <a href="#skills" onClick={toggleMenu}>Skills</a>
+          <a href="#skills" onClick={toggleMenu}>
+            Skills
+          </a>
         </li>
         <li>
-          <a href="#contact" onClick={toggleMenu}>Contact</a>
+          <a href="#contact" onClick={toggleMenu}>
+            Contact
+          </a>
         </li>
       </ul>
+
+      {/* Resume Button */}
+      <a
+        href="/resume.pdf"
+        download="Akash_Divate_Resume.pdf"
+        className="resume-button"
+      >
+       Resume 📄
+      </a>
     </nav>
   );
 };
