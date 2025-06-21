@@ -33,6 +33,12 @@ const Navbar = () => {
           </a>
         </li>
         <li>
+          <a href="#achievements" onClick={toggleMenu}>
+            Achievements
+          </a>
+        </li>{" "}
+        {/* ✅ New */}
+        <li>
           <a href="#skills" onClick={toggleMenu}>
             Skills
           </a>
@@ -50,7 +56,7 @@ const Navbar = () => {
         download="Akash_Divate_Resume.pdf"
         className="resume-button"
       >
-       Resume 📄
+        Resume 📄
       </a>
     </nav>
   );
