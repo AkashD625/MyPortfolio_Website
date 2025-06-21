@@ -34,7 +34,7 @@ const Navbar = () => {
         </li>
         <li>
           <a href="#achievements" onClick={toggleMenu}>
-            Achievements
+            hghghghg
           </a>
         </li>{" "}
         {/* ✅ New */}
