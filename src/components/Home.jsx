@@ -14,10 +14,18 @@ const Home = () => {
 
         {/* Social Links */}
         <div className="social-links">
-          <a href="https://www.linkedin.com/in/akashdivate" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/akashdivate"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin className="icon linkedin" />
           </a>
-          <a href="https://github.com/akashdivate" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/AkashD625"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub className="icon github" />
           </a>
           <a href="mailto:akashdivate@gmail.com">
@@ -34,10 +42,12 @@ const Home = () => {
         <div className="about-me">
           <h2 className="about-title">About Me</h2>
           <p className="about-text">
-            I’m a passionate <span className="highlight">Engineering Student</span> with expertise in{" "}
-            <span className="highlight">MERN Stack</span>,{" "}
-            <span className="highlight">Data Structures & Algorithms</span>, and <span className="highlight">AI</span>. 
-            I enjoy solving real-world problems through technology and building scalable applications.
+            I’m a passionate{" "}
+            <span className="highlight">Engineering Student</span> with
+            expertise in <span className="highlight">MERN Stack</span>,{" "}
+            <span className="highlight">Data Structures & Algorithms</span>, and{" "}
+            <span className="highlight">AI</span>. I enjoy solving real-world
+            problems through technology and building scalable applications.
           </p>
         </div>
       </div>
