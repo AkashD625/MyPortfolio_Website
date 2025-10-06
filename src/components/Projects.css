@@ -6,130 +6,123 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  text-align: center;
-  background: linear-gradient(to bottom, #d9f3ff, white);
+  background: linear-gradient(180deg, #eaf7ff 0%, #ffffff 100%);
   font-family: "Poppins", sans-serif;
-  padding: 50px 20px;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 /* Title */
 .projects-title {
   font-size: 2.8rem;
-  font-weight: bold;
-  color: #1a1a1a;
-  margin-bottom: 15px;
+  font-weight: 700;
+  color: #0a2540;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
 }
 
-/* Description */
+/* Subtitle */
 .projects-description {
   font-size: 18px;
-  color: #555;
-  max-width: 700px;
-  margin-bottom: 30px;
+  color: #444;
+  max-width: 720px;
+  margin-bottom: 40px;
 }
 
-/* Projects Grid */
+/* Grid Layout */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   gap: 30px;
-  max-width: 1100px;
   width: 100%;
-  padding: 20px;
-  justify-content: center;
+  max-width: 1150px;
+  padding: 10px;
 }
 
-/* Project Card */
+/* Card */
 .project-card {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 12px;
-  backdrop-filter: blur(10px);
+  background: #ffffff;
+  border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
-  padding-bottom: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
 }
 
-/* Project Image */
+/* Image */
 .project-image {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
-  border-bottom: 4px solid blue;
+  border-bottom: 4px solid #007bff;
 }
 
-/* Project Info */
+/* Info Section */
 .project-info {
-  padding: 15px;
+  padding: 18px 20px;
   text-align: left;
 }
 
 .project-name {
-  font-size: 22px;
-  font-weight: bold;
-  color: black;
-  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0a2540;
+  margin-bottom: 8px;
 }
 
 .project-description {
-  font-size: 16px;
-  color: #444;
-  margin-bottom: 10px;
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 16px;
+  line-height: 1.5;
 }
 
-/* Project Links */
+/* Buttons */
 .project-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
 }
 
-/* Project Buttons */
 .project-btn,
 .github-btn {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 15px;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
+  gap: 6px;
+  padding: 8px 14px;
+  font-size: 15px;
+  font-weight: 600;
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.3s ease;
-  cursor: pointer;
 }
 
 .project-btn {
-  background-color: blue;
+  background-color: #007bff;
   color: white;
 }
 
 .project-btn:hover {
-  background-color: #0044cc;
-  transform: scale(1.1);
+  background-color: #0056cc;
+  transform: scale(1.05);
 }
 
-/* GitHub Button */
 .github-btn {
-  background: #222;
+  background-color: #222;
   color: white;
 }
 
 .github-btn:hover {
-  background: #444;
-  transform: scale(1.1);
+  background-color: #444;
+  transform: scale(1.05);
 }
 
-/* GitHub Icon */
 .github-icon {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Responsive */
