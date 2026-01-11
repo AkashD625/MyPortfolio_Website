@@ -70,7 +70,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import project1 from "../assets/images/airpulse.jpg";
 import project2 from "../assets/images/vegy.png";
-import project3 from "../assets/images/drowsiness.png";
+import project3 from "../assets/images/comit_story.png";
 
 const projects = [
   {
@@ -90,12 +90,12 @@ const projects = [
     github: "https://github.com/AkashD625/Vegy---food-delivery-app",
   },
   {
-    title: "Drowsiness Detection System",
+    title: "CommitStory — GitHub Activity Tracker",
     description:
-      "A real-time driver monitoring system using Python, OpenCV, TensorFlow, and scikit-learn. Achieved 92% accuracy with a CNN model and reduced false positives by 30%. Alerts trigger within <1 second during live tests.",
+      "Built a web tool to track and visualize GitHub contribution activity using React.js, Node.js, and Chart.js. Fetched live data from the GitHub REST API to display commits and repositories, and created interactive charts and heatmaps to present contribution patterns clearly.",
     img: project3,
-    link: "https://github.com/AkashD625/Drowsiness-Detection-System",
-    github: "https://github.com/AkashD625/Drowsiness-Detection-System",
+    link: "https://commit-tracker-25.onrender.com/",
+    github: "https://github.com/AkashD625/Commit-tracker",
   },
 ];
 

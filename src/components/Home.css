@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background: #e0f7ff;
+  background: radial-gradient(circle at top, #0b1021, #050816);
   overflow-x: hidden;
+  color: #e6e6f0;
 }
 
 .home-container {
@@ -24,14 +25,14 @@ body {
 .background .circle {
   position: absolute;
   border-radius: 50%;
-  opacity: 0.2;
+  opacity: 0.25;
   animation: float 10s infinite ease-in-out;
 }
 
 .circle1 {
   width: 300px;
   height: 300px;
-  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  background: linear-gradient(45deg, #7f5cff, #4f46e5);
   top: -50px;
   left: -100px;
 }
@@ -39,7 +40,7 @@ body {
 .circle2 {
   width: 200px;
   height: 200px;
-  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  background: linear-gradient(45deg, #ff0080, #7928ca);
   bottom: -80px;
   right: -50px;
 }
@@ -47,7 +48,7 @@ body {
 .circle3 {
   width: 150px;
   height: 150px;
-  background: linear-gradient(45deg, #00ff85, #00c3ff);
+  background: linear-gradient(45deg, #00f5a0, #00d9f5);
   top: 40%;
   left: 70%;
 }
@@ -66,12 +67,12 @@ body {
 .title {
   font-size: 3rem;
   font-weight: 700;
-  color: #0a2540;
+  color: #e6e6f0;
   margin-top: 30px;
 }
 
 .highlight {
-  background: linear-gradient(90deg, #0077b5, #1e90ff);
+  background: linear-gradient(90deg, #7f5cff, #4f46e5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -86,7 +87,7 @@ body {
 
 .icon {
   font-size: 2.2rem;
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .icon:hover {
@@ -94,18 +95,18 @@ body {
 }
 
 .linkedin {
-  color: #0077b5;
+  color: #0a66c2;
 }
 .github {
-  color: #333;
+  color: #f1f5f9;
 }
 .email {
-  color: #1e90ff;
+  color: #38bdf8;
 }
 
 /* Connect Button */
 .connect-btn {
-  background: linear-gradient(135deg, #0077b5, #1e90ff);
+  background: linear-gradient(135deg, #7f5cff, #4f46e5);
   color: white;
   padding: 14px 28px;
   border-radius: 30px;
@@ -114,35 +115,35 @@ body {
   margin-top: 25px;
   text-decoration: none;
   display: inline-block;
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 6px 15px rgba(127, 92, 255, 0.5);
   transition: all 0.3s ease;
 }
 
 .connect-btn:hover {
   transform: scale(1.1);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 8px 20px rgba(127, 92, 255, 0.7);
 }
 
 /* About Me Section */
 .about-me {
   margin-top: 60px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.07);
   padding: 25px 20px;
   border-radius: 20px;
   max-width: 650px;
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 .about-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #0056b3;
+  color: #7f5cff;
   margin-bottom: 15px;
 }
 
 .about-text {
   font-size: 1.2rem;
-  color: #444;
+  color: #d1d5db;
   line-height: 1.6;
 }
 

@@ -1,17 +1,32 @@
 import React from "react";
 import "./Skills.css";
-import { FaCode, FaLaptopCode, FaDatabase, FaBrain, FaCloud, FaGithub } from "react-icons/fa";
+import {
+  FaCode,
+  FaLaptopCode,
+  FaDatabase,
+  FaBrain,
+  FaCloud,
+  FaGithub,
+} from "react-icons/fa";
 
 const skills = [
   {
     category: "Frontend Development",
-    skills: ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Tailwind CSS"],
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "React-native",
+      "Tailwind CSS",
+    ],
     icon: "💻",
   },
   {
     title: "Backend Development",
-    description: "Building scalable and efficient backend services using modern technologies.",
-    skills: ["Node.js", "Express.js", "MongoDB", "Firebase", "GraphQL"],
+    description:
+      "Building scalable and efficient backend services using modern technologies.",
+    skills: ["Node.js", "Express.js", "MongoDB", "Firebase"],
     icon: "⚙️",
   },
   {
@@ -20,16 +35,11 @@ const skills = [
     skills: ["C++", "Algorithms", "Dynamic Programming", "Graphs", "Trees"],
     icon: "📊",
   },
-  {
-    title: "AI & Machine Learning",
-    description: "Implementing AI solutions using advanced ML models.",
-    skills: ["TensorFlow", "OpenCV", "NLP (spacy, NLTK)", "Deep Learning"],
-    icon: "🤖",
-  },
+
   {
     title: "Tools & Technologies",
     description: "Proficient with essential developer tools & DevOps.",
-    skills: ["Git", "GitHub", "Docker", "AWS", "Linux", "CI/CD"],
+    skills: ["Git", "GitHub", "CI/CD"],
     icon: "🛠️",
   },
 ];
@@ -46,11 +56,13 @@ const Skills = () => {
             <p className="skill-description">{skill.description}</p>
             <div className="skill-tags">
               {skill.skills.map((s, i) => (
-                <span key={i} className="skill-tag">{s}</span>
+                <span key={i} className="skill-tag">
+                  {s}
+                </span>
               ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
       </div>
     </section>
   );

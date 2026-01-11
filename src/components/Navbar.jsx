@@ -29,7 +29,7 @@ const Navbar = () => {
         </li>
         <li>
           <a href="#coding" onClick={toggleMenu}>
-            CodingProfiles
+            Coding-Profiles
           </a>
         </li>
         <li>
@@ -52,7 +52,7 @@ const Navbar = () => {
 
       {/* Resume Button */}
       <a
-        href="/resume.pdf"
+        href="https://drive.google.com/uc?export=download&id=1c03NGW-bVu3yLGKaxCuJftsjbQ0x7pMH"
         download="Akash_Divate_Resume.pdf"
         className="resume-button"
       >

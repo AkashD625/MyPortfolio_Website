@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
 .skills-container {
   display: flex;
@@ -7,16 +7,17 @@
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  background: linear-gradient(to bottom, #d9f3ff, white);
+  background: linear-gradient(180deg, #050816 0%, #0b1021 100%);
   font-family: "Poppins", sans-serif;
   padding: 50px 20px;
+  color: #e6e6f0;
 }
 
 /* Title */
 .skills-title {
   font-size: 2.5rem;
-  font-weight: bold;
-  color: black;
+  font-weight: 700;
+  color: #f8fafc;
   margin-bottom: 30px;
 }
 
@@ -32,30 +33,32 @@
 
 /* Skill Card */
 .skill-card {
-  background: white;
-  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
   padding: 20px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
 }
 
 .skill-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 18px 40px rgba(127, 92, 255, 0.45);
 }
 
 /* Skill Title */
 .skill-name {
   font-size: 22px;
-  font-weight: bold;
-  color: black;
+  font-weight: 600;
+  color: #f8fafc;
   margin-bottom: 10px;
 }
 
 /* Skill Description */
 .skill-description {
   font-size: 16px;
-  color: gray;
+  color: #cbd5e1;
   margin-bottom: 10px;
 }
 
@@ -69,10 +72,11 @@
 }
 
 .skill-tag {
-  background-color: blue;
+  background: linear-gradient(135deg, #7f5cff, #4f46e5);
   color: white;
-  padding: 6px 12px;
-  border-radius: 15px;
-  font-size: 14px;
-  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(127, 92, 255, 0.6);
 }

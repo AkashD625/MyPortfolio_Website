@@ -1,16 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
 .achievements-section {
-  background: linear-gradient(to top, #e8f9ff, white);
+  background: linear-gradient(180deg, #050816 0%, #0b1021 100%);
   padding: 80px 20px;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  color: #e6e6f0;
 }
 
 .achievements-title {
   font-size: 2.8rem;
   font-weight: 700;
-  color: #0a2540;
+  color: #f8fafc;
   margin-bottom: 50px;
 }
 
@@ -25,26 +26,28 @@
 
 /* Card */
 .achievement-card {
-  background: white;
-  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
   padding: 25px 20px;
   display: flex;
   align-items: flex-start;
   gap: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
 }
 
 .achievement-card:hover {
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-  background: linear-gradient(135deg, #d0f0ff, #ffffff);
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 18px 45px rgba(127, 92, 255, 0.45);
+  background: rgba(127, 92, 255, 0.08);
 }
 
 /* Icon */
 .achievement-icon {
   font-size: 2.2rem;
-  color: #0077b5;
+  color: #7f5cff;
   flex-shrink: 0;
   margin-top: 4px;
 }
@@ -52,7 +55,7 @@
 /* Text */
 .achievement-text {
   font-size: 16px;
-  color: #333;
+  color: #e5e7eb;
   line-height: 1.6;
   text-align: left;
 }
@@ -77,6 +80,7 @@
   .achievements-grid {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
+
   .achievement-card {
     padding: 20px 15px;
   }
