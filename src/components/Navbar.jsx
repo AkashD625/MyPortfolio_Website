@@ -52,7 +52,7 @@ const Navbar = () => {
 
       {/* Resume Button */}
       <a
-        href="https://drive.google.com/uc?export=download&id=1c03NGW-bVu3yLGKaxCuJftsjbQ0x7pMH"
+        href="https://drive.google.com/file/d/1P8iPaU-yW0ZctryVbPTXQoyYdpvXLwzS/view?usp=sharing"
         download="Akash_Divate_Resume.pdf"
         className="resume-button"
       >
