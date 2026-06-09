@@ -24,7 +24,7 @@ const Navbar = () => {
         </li>
         <li>
           <a href="#projects" onClick={toggleMenu}>
-            Projects
+            Project
           </a>
         </li>
         <li>
